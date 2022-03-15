@@ -13,3 +13,4 @@ ttk.Button(root, text='Paper',command=lambda: select('Paper')).pack()
 ttk.Button(root, text='Scissors', command=lambda: select('Scissors')).pack()
 
 root.mainloop()
+# hj
