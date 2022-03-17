@@ -11,7 +11,7 @@ root.title('Image Button Demo')
 def download_kliked():
     showinfo(title='informasi', message='download klik!')
 
-donlot_ikon = tk.PhotoImage(file='images/down-arrow.png')
+donlot_ikon = tk.PhotoImage(file='images/arrow.png')
 donlot_button = ttk.Button(root, image=donlot_ikon, text='Donlot', compound=tk.LEFT, command=download_kliked)
 
 donlot_button.pack(
