@@ -56,3 +56,5 @@ frame.grid(padx=10, pady=10)
 
 # start the app
 root.mainloop()
+
+# grid: (kolom, baris)
